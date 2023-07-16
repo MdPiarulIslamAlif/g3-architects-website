@@ -5,6 +5,7 @@
 
 
 *{
+     margin: 0;
      font-family: 'Lato', sans-serif;
      font-family: 'Work Sans', sans-serif;
 }
@@ -200,6 +201,21 @@ font-weight: 700;
  }
  /* sponsors section style end form here */
 /* main style  end */
+/* footer section start form here */
+footer{
+     max-width: 1440px;
+     margin: 70px auto;
+}
+.footer-container .text-light-grey{
+     line-height: 6.25rem;
+}
+.footer-container{
+     height: 6.25rem;
+     text-align: center;
+     border-radius: 8px;
+     background: #FFF4E7;    
+}
+/* footer section end form here */
 
 /* responsive style start form here*/
 /* mobile devise  media query start form here*/
@@ -241,8 +257,10 @@ font-weight: 700;
      .ten-years-badg{
         position: static;
         max-width: 300px;
-        margin-left: 70px;
-        
+     }
+     .footer-container .text-light-grey{
+          line-height: 3rem;
+
      }
      
 }
@@ -265,8 +283,8 @@ font-weight: 700;
           width: 100%;
        }
        .feature-img img{
-          width: 90%;
-          margin-left: 0;
+          width: 80%;
+          margin-left: 80px;
        }
      
 
